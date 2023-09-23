@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Weather App</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- search bar -->
+        <div class="search-container acrylic">
+            <i class="material-icons-outlined">location_on</i>
+            <input type="text" class="search-bar" id="search-bar" placeholder="Search Location">
+            <button class="search-button" id="search-button">
+                <i class="material-icons-outlined">search</i>
+            </button>
+        </div>
+
+        <!-- weather info -->
+        <div class="weather-container">
+
+            <!-- weather display -->
+            <div class="weather-display">
+                <div class="tooltip">
+                    <i class="material-icons-outlined tooltip-icon">info</i>
+                    <span class="tooltiptext">
+                        <a class="tooltip-text" href="http://www.freepik.com">Designed by Bamdewanto / Freepik</a>
+                    </span>
+                </div>
+            </div>
+
+            <!-- weather-info -->
+            <div class="additional-info">
+                <div class="weather-temp acrylic">
+                    <i class="material-icons-outlined weather-icon">thermostat</i>
+                    <span id="temp-span">--</span>
+                </div>
+                <div class="info-lower">
+                    <div class="weather-humidity weather-info acrylic">
+                        <span id="humid-span">--</span>
+                        <i class="material-icons-outlined weather-icon">water_drop</i>
+                    </div>
+                    <div class="weather-wind weather-info acrylic">
+                        <span id="wind-span">--</span>
+                        <i class="material-icons-outlined weather-icon">air</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

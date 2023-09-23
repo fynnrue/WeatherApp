@@ -1,0 +1,1 @@
+Simple weather app, created with Html/Css and JS with API calls to openweathermap.org
